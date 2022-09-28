@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CRUDS</title>
+        <link rel="stylesheet" href="CRUDS.css">
+        <link rel="icon" href="icon.png" >
+    </head>
+    <body>
+        <div class="cruds">
+
+
+        <div class="head">
+        <h1>CRUDS</h1>
+        <p>PROJECT MANAGEMENT SYSTEM</p>
+    </div>
+
+
+    <div class="input">
+        <input type="text" id="title" placeholder="title"></input>
+        <div id="price">
+        <input type="number" onkeyup="gettotal()" id="pricee" placeholder="price"></input>
+        <input type="number" onkeyup="gettotal()" id="taxes" placeholder="taxes"></input>
+        <input type="number" onkeyup="gettotal()" id="ads" placeholder="ads"></input>        
+        <input type="number" onkeyup="gettotal()" id="discount" placeholder="discount"></input>
+        <small id="total"></small> <!--for short box-->
+        </div>
+        <input type="number" id="COUNT" placeholder="COUNT"></input>
+        <input type="text" id="Category" placeholder="Category"></input>
+        <button id="Create">Create</button>
+        
+        <br>
+        
+    </div>
+
+
+    <div class="output">
+        <div class="searchblock">
+        <input type="text" onkeyup="searchdata(this.value)" id="Search" placeholder="Search"></input>
+        <div class="btnSearch">
+        <button onclick="getsearchmood(this.id)" id="Search_By_Title"> Search By Title</button>
+        <button onclick="getsearchmood(this.id)" id="Search_By_Category">Search By Category</button>
+        </div>
+        </div>
+    </div>
+    <div id="deleteAll">
+        
+    </div>
+    <table>
+        
+        <tr>
+        <th>ID</th>
+        <th>TITLE</th>
+        <th>PRICE</th>
+        <th>TAXES</th>
+        <th>ADS</th>
+        <th>DISCOUNT</th>
+        <th>TOTAL</th>
+        <th>CATEGORY</th>
+        <th>Update</th>
+        <th>Delete</th>
+        </tr>
+        <tbody id="tbody">
+       
+        </tbody>
+
+    </table>
+    </div>
+        <script src="CRUDS.js"></script>
+    </body>
+</html>

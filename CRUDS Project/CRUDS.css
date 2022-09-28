@@ -1,0 +1,206 @@
+h1{
+    text-align: center;
+    margin: auto;
+    color: rgba(184, 22, 135, 0.555);
+}
+p{
+    text-align: center;
+    margin-top: 0px;
+    color: rgba(26, 53, 26, 0.829);
+}
+body{
+    background-color: rgba(109, 107, 235, 0.5);
+    font-family:  system-ui;
+}
+.cruds{
+    width: 80%;
+    margin:    auto ;
+}
+
+input{
+    width: 100%;;
+    height: 30%;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 3.5px ;
+    color: rgb(3, 3, 3);
+}
+input:focus{
+    background-color: rgba(12, 219, 40, 0.808);
+    transform: scale(1.05); /* this is used to transform the margin of the box when we focuss on it*/
+}
+
+#price input{
+    width: 20%;
+}
+#total{
+    background-color: #e6473b73;
+    padding: 4.5px 15px;
+    border-radius: 8.9px;
+
+}
+/*This use to add the word of "TOTAL" before the price*/
+#total::before{
+    content: "Total : ";
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.335);
+    color: rgba(3, 3, 3, 0.863);
+    border-radius: 20px;
+    margin: 3.5px;
+    transition: 1s; /*for making the spacing when we do hover lent*/
+}
+#deleteAll{
+    margin: 20px 0;
+}
+button:hover{
+    background: rgba(255, 0, 0, 0.582);
+    letter-spacing: 1px; /* this is used for make soace between letters when we do this hover*/
+}
+
+.btnSearch{
+    display: flex; /* to make the two button one atside the other*/
+    justify-content: space-between;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+    text-transform: uppercase;/*To make the colomns uppercases*/
+}
+th,td{
+    padding: 5px;
+}
+
+
+/*#title{
+    margin-left: 400px;
+    height: 30px;
+    width: 1050px;
+    margin-top: 5px; 
+    margin-bottom: 5px;  
+    border-radius: 5px;
+    outline: none;
+    border: none;             
+}
+#price{
+    margin-left: 400px;
+    height: 30px;
+    width: 230px;  
+    border-radius: 5px; 
+}
+#taxes{
+    margin-left: 0px;
+    height: 30px;
+    width: 227px;  
+    border-radius: 5px;
+}
+#ads{
+    margin-left: 0px;
+    height: 30px;
+    width: 225px;  
+    border-radius: 5px;
+}
+#discount{
+    margin-left: 0px;
+    height: 30px;
+    width: 225px;  
+    border-radius: 5px;
+}
+#total{
+    margin-left: 0px;
+    height: 30px;
+    width: 98px; 
+    border-radius: 5px;
+    
+}
+#COUNT{
+    margin-top: 5px;
+    margin-left: 400px;
+    height: 30px;
+    width: 1050px;
+    border-radius: 5px;
+}
+#Category{
+    margin-top: 5px;
+    margin-left: 400px;
+    height: 30px;
+    width: 1050px;
+    border-radius: 5px;
+}
+#Create{
+    margin-top: 5px;
+    margin-left: 400px;
+    height: 30px;
+    width: 1050px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+#Search{
+    margin-top: 5px;
+    margin-left: 400px;
+    height: 30px;
+    width: 1050px;
+    border-radius: 5px;
+}
+#Search_By_Title{
+    margin-top: 5px;
+    margin-left: 400px;
+    height: 30px;
+    width: 470px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+#Search_By_Category{
+    margin-top: 5px;
+    margin-left: 175px;
+    height: 30px;
+    width: 399px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+#Delete{
+    margin-top: 5px;
+    margin-left: 400px;
+    height: 30px;
+    width: 1050px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+
+div button:hover{
+    cursor: pointer;
+    
+    
+    border-bottom: 20px ;
+    border-left: 20px ;
+    
+
+}
+
+
+div input:hover{
+    cursor :pointer;
+    
+    border-bottom: 20px ;
+    border-left: 20px ;
+    
+    
+
+}
+*/
