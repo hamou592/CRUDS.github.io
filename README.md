@@ -56,7 +56,9 @@ All data is saved in LocalStorage, so it remains after refreshing the page.
 📦 Installation & Usage
 
 1.Clone the repository: https://github.com/hamou592/CRUDS.github.io.git
+
 2.Open index.html in your browser.
+
 3.Start managing products!
 
 🔮 Future Improvements
@@ -71,4 +73,4 @@ Add dark mode toggle.
 
 👨‍💻 Author
 
-Your Name – https://github.com/hamou592
+Hamou Nasreddine – https://github.com/hamou592
