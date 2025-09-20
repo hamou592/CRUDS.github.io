@@ -25,6 +25,7 @@ Frontend: HTML, CSS, JavaScript
 Storage: LocalStorage (no backend required)
 
 📂 Project Structure
+
 project-folder/
 │── index.html      # Main HTML file
 │── style.css       # Styles for the UI
