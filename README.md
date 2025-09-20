@@ -30,7 +30,7 @@ project-folder/
 │── index.html      # Main HTML file
 │── style.css       # Styles for the UI
 │── script.js       # Main JavaScript logic
-│── README.md       # Project documentation
+
 
 📸 Screenshots
 <img width="1897" height="910" alt="image" src="https://github.com/user-attachments/assets/520dfb09-6657-4d5c-924f-38ea9d39336b" />
